@@ -16,6 +16,26 @@
 
 DEVICE_PATH := device/xiaomi/mido
 
+# Uber Optimizations
+USE_CCACHE=1
+#ENABLE_EXTRAGCC := true
+#CLANG_O3 := true
+STRICT_ALIASING := true
+#KRAIT_TUNINGS := true
+GRAPHITE_OPTS := true
+#ENABLE_GCCONLY := true
+WITH_DEXPREOPT := true
+#FFAST_MATH := true
+#ENABLE_IPA_ANALYSER := true
+#TARGET_USE_PIPE := true
+#ENABLE_PTHREAD := true
+#ENABLE_GOMP := true
+#ENABLE_SANITIZE := true
+#USE_O3_OPTIMIZATIONS := true
+#ENABLE_MODULAR_O3_OPTIMIZATIONS := true
+#TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
+
+
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
 # Architecture
